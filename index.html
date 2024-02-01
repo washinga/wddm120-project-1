@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+
+        <img class="logo" src="images/washinga logo ps.png" alt="">
+        <button onclick="changeColorScheme()" type="button">Change Color Scheme</button>
+    </header>
+
+    <nav>
+        <a href="#">Fashion</a> 
+        <a href="#">Beauty and Skin Care</a>
+        <a href="#">Food</a>
+    </nav>
+
+    <main>
+        <section id="section1">
+            <img class="category-image" src="./images/IMG_0152 2.JPG" alt=""/>
+        </section>
+        <section id="section2">
+            <h2 id="category-title">Category Description</h2>
+            <p id="category-description">Explore trendy African designs and shop from our amazing collections</p>
+        </section>
+
+
+
+        <aside id="sidebar">
+            <h2>Category</h2>
+            <ul>
+                <li data-fashion="fashion">Fashion</li>
+                <li data-beauty="beauty">Beauty</li>
+                <li data-food="food">Food
+                    
+                </li>
+            </ul>
+            <button onclick="addNewItem()">Add Item</button>
+            <button onclick="removeLastItem()">Remove Item</button>
+        </aside>
+    </main>
+
+    <footer>
+        &copy; 2024 Daniel Okonkwo
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
